@@ -1,0 +1,26 @@
+<button>Back</button>
+<a href="#">1</a>
+<a href="#">2</a>
+<a href="#">3</a>
+<a href="#">4</a>
+<a href="#">5</a>
+<button>Next</button>
+
+<style>
+    .shadow-button {
+        background-color: green;
+        color: white;
+        border: none;
+        padding: 8px 14px;
+        border-radius: 8px;
+        transition: box-shadow 0.5s;
+    }
+    .shadow-button:hover {
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+    }
+    .shadow-button:active {
+        transform: translate3d(10%, 10%, 25px);
+    }
+</style>
+
+<button class="shadow-button">Shadow</button>
